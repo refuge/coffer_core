@@ -1,0 +1,12 @@
+{application, coffer_core,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { coffer_core_app, []}},
+  {env, []}
+ ]}.
